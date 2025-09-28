@@ -266,4 +266,115 @@ button {
   .mobile-menu {
     display: none;
   }
+  
 }
+@media (min-width: 320px){
+  .hero-business-solutions{
+    text-align: center;
+  background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg); 
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  max-width: 320px;
+   margin: 0 auto;
+  padding: ;
+  color: #fff;  
+ margin-left: auto;
+
+  }
+  .business-solutions-title{
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+ gap: 72px;
+  max-width: 216px;
+  margin: 52px;
+   text-transform: capitalize;
+}
+.order-button{
+border-radius: 4px;
+padding-block: 16px;
+padding-inline: 32px;
+width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+background: #4d5ae5;
+}
+.order-button:focus {
+background-color: #404BBF;
+}
+.prioritets-list{
+  gap: 72px;
+}
+}
+@media screen and (min-width: 768px){
+  .hero-business-solutions{
+    text-align: center;
+  background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg); 
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  max-width: 1440px;
+   margin: 0 auto;
+  padding: 188px 0;
+  color: #fff;  
+ margin-left: auto;
+  }
+}
+@media screen and (min-width: 1158px){
+  .hero-business-solutions{
+    text-align: center;
+  background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg); 
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  max-width: 1440px;
+   margin: 0 auto;
+  padding: 188px 0;
+  color: #fff;  
+ margin-left: auto;
+  }
+  .business-solutions-title{
+  
+ gap: 24px;
+  max-width: 496px;
+  margin: 0 auto 48px;
+  font-size: 56px;
+   line-height:  1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+}
+.order-button{
+    margin: auto;
+    display: block;
+    cursor: pointer;
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
+  height: 56px;
+ font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+background: #4d5ae5;
+  color: #fff;
+  
+  }
+.order-button:focus {
+background-color: #404BBF;
+}
+}
+
+
