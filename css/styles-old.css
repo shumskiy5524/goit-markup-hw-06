@@ -17,50 +17,6 @@ opacity: 1;
 }
 
 
-.prioritets-section{
-  padding: 120px 0;
-  display: flex;
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-
-.prioritets-list{
-  display: flex;
-  gap: 24px;
-}
-.prioritets-item{
-  width: calc((100% - 72px) / 4);
-}
-.prioritets-card{
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  height: 112px; 
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
-}
-.prioritets-icon{
-background: #f4f4fd;
-}
-.prioritets-subtitle-hero { 
-  margin-bottom: 8px; 
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #2e2f42;
-}
-.prioritets-text {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-  letter-spacing: 0.02em;
-}
 .team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
