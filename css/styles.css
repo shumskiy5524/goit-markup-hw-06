@@ -427,7 +427,8 @@ color: #434455;
 .prioritets-item{
   width: 100%;
 }
-.prioritets-icon{
+
+.prioritets-card{
   display: none;
 }
 .prioritets-subtitle-hero { 
@@ -472,7 +473,7 @@ color: #434455;
 .prioritets-item{
   width: calc((100% - 72px) / 2);
 }
-.prioritets-icon{
+.prioritets-card{
   display: none;
 }
 .prioritets-subtitle-hero { 
@@ -545,14 +546,21 @@ color: #434455;
 
 
 @media (min-width: 320px){
+  .container-team-list{
+    width: 264px;
+    height: 428px;
+    margin: 28px;
+    object-fit: cover;
+  }
 
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding: 96px 0;
   text-align: center;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-title {
+  margin-top: 96;
   margin-bottom: 72px;
   font-size: 36px;
   font-weight: 700;
@@ -564,8 +572,10 @@ color: #434455;
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
   list-style: none;
+  box-sizing: border-box;
+  padding: 28px;
 }
 
 .team-item { 
@@ -575,6 +585,7 @@ color: #434455;
 
   background: #fff;
    border-radius: 0 0 4px 4px;
+   margin-bottom: 32px;
 }
 .team-social-link{
   width: 100%;
@@ -594,13 +605,15 @@ color: #434455;
    fill: #f4f4fd;
 }
 .team-card{
-  padding: 32px 0 ;
+  padding: 28px 0 ;
 
 }
 .team-list-icon{
   display: flex;
   justify-content: center;
   gap: 24px;
+  
+  
 }
 .team-item-social{
  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -620,6 +633,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-bottom: 8px;
 }
 .team-icon{
   fill: #f4f4fd;
@@ -640,7 +654,7 @@ color: #434455;
  
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding: 96px 0;
   text-align: center;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -658,6 +672,7 @@ color: #434455;
   flex-wrap: wrap;
   gap: 24px;
   list-style: none;
+  
 }
 
 .team-item { 
@@ -667,6 +682,7 @@ color: #434455;
 
   background: #fff;
    border-radius: 0 0 4px 4px;
+    width: calc((100% - 24px) / 2);
 }
 .team-social-link{
   width: 100%;
@@ -687,8 +703,10 @@ color: #434455;
 }
 .team-card{
   padding: 32px 0 ;
+  width: 100%;
 
 }
+
 .team-list-icon{
   display: flex;
   justify-content: center;
@@ -757,6 +775,8 @@ color: #434455;
 
   background: #fff;
    border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
+   
 }
 .team-social-link{
   width: 100%;
