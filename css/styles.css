@@ -380,8 +380,9 @@ background-color: #404BBF;
    text-transform: capitalize;
 }
 .order-button{
+align-items: center;
     margin: auto;
-    display: block;
+    display: flex;
     cursor: pointer;
   min-width: 169px;
   border: none;
@@ -525,9 +526,7 @@ color: #434455;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
-.prioritets-icon{
-background: #f4f4fd;
-}
+
 .prioritets-subtitle-hero { 
   margin-bottom: 8px; 
   font-size: 20px;
@@ -543,7 +542,8 @@ background: #f4f4fd;
 }
 }
 
-/////////////////////////////////////////////////
+
+
 @media (min-width: 320px){
 
 .team-section {
@@ -633,7 +633,7 @@ color: #434455;
 
 
 
-//////////////////////////////****************///////////////
+
 
 
 @media screen and (min-width: 768px){
