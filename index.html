@@ -40,11 +40,53 @@ rel="stylesheet">
         <div class="mobile-menu " data-menu>
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close" data-menu-close>Close</button>
-          <nav class="mobile-menu-nav">Navigation</nav>
-          <address>Address</address>
-          <div>Soc link</div>
-        </div>
-        </div>
+          <div>
+            <nav class="mob-menu-nav">
+            <ul class="mob-nav-list">
+                <li class="mob-nav-item"><a class="mob-nav-link current" href="./index.html">Studio</a></li>
+                <li class="mob-nav-item"><a class="mob-nav-link" href="">Portfolio</a></li>
+                <li class="mob-nav-item"><a class="mob-nav-link" href="">Contacts</a></li>
+            </ul>
+            </nav>
+          </div>
+            <div class="mob-social-link">
+              <address class="contacts-mob">
+             <ul class="contacts-list-mob">
+                <li class="contacts-item-mob"><a class="contacts-link-mob" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contacts-item-mob"><a class="contacts-link-mob" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            </ul>
+            </address>
+            <ul class="mob-list-icon">
+             <li class="mob-item-social">
+      <a class="mob-social-link" href="#">
+      <svg class="mob-icon" width="16" height="16">
+      <use href="./images/icons.svg#icon-instagram"></use>
+       </svg>
+        </a>       
+       </li>
+       <li class="mob-item-social">
+       <a class="mob-social-link" href="#">
+      <svg class="mob-icon" width="16" height="16">
+          <use href="./images/icons.svg#icon-twitter"></use>
+         </svg>
+       </a>
+         </li>
+         <li class="mob-item-social">
+        <a class="mob-social-link" href="#">
+       <svg class="mob-icon" width="16" height="16">
+      <use href="./images/icons.svg#icon-facebook"></use>
+       </svg> 
+      </a>     
+      </li>
+      <li class="mob-item-social">
+     <a class="mob-social-link" href="#">
+     <svg class="mob-icon" width="16" height="16">
+      <use href="./images/icons.svg#icon-linkedin"></use>
+         </svg>
+          </a>
+         </li>
+            </ul>
+            </div>
     </header>
 
 <main class="page-main-hero">
@@ -280,18 +322,18 @@ rel="stylesheet">
       <div class="portfolio-item-cover">
       <picture>
         <source
-        srcset="./images/portfolio-1.jpg 1x",
-        "./images/portfolio-desk2x.jpg 2x"
+        srcset="./images/portfolio-1.jpg 1x, 
+        ./images/portfolio-desk2x.jpg 2"
        media="(min-width: 1158px)"
         />
      <source
-     srcset="./images/portfolio-1-tabl1x.jpg 1x",
-      "./images/portfolio-1-tabl2x.jpg 2x"
+     srcset="./images/portfolio-1-tabl1x.jpg 1x, 
+     ./images/portfolio-1-tabl2x.jpg 2x"
      media="(min-width: 768px)"
      />
      <sourse
-     srcset="./images/portfolio-1-mob1x.jpg 1x",
-      "./images/portfolio-1-mob2x.jpg 2x"
+     srcset="./images/portfolio-1-mob1x.jpg 1x, 
+     ./images/portfolio-1-mob2x.jpg 2x"
      media="(max-width: 767px)"
      />
          <img 
@@ -309,18 +351,18 @@ rel="stylesheet">
     <div class="portfolio-item-cover">
 <picture>
         <source
-        srcset="./images/portfolio-2.jpg 1x",
-        "./images/portfolio-2-desk2x.jpg 2x"
+        srcset="./images/portfolio-2.jpg 1x, 
+        ./images/portfolio-2-desk2x.jpg 2x"
        media="(min-width: 1158px)"
         />
      <source
-     srcset="./images/portfolio-2-tabl1x.jpg 1x",
-      "./images/portfolio-2-tabl2x.jpg 2x"
+     srcset="./images/portfolio-2-tabl1x.jpg 1x, 
+     ./images/portfolio-2-tabl2x.jpg 2x"
      media="(min-width: 768px)"
      />
      <sourse
-     srcset="./images/portfolio-2-mob1x.jpg 1x",
-      "./images/portfolio-2-mob2x.jpg 2x"
+     srcset="./images/portfolio-2-mob1x.jpg 1x,  
+     ./images/portfolio-2-mob2x.jpg 2x"
      media="(max-width: 767px)"
      />
       <img src="./images/portfolio-2.jpg" alt="Cashless Payment" width="360" />
@@ -339,18 +381,18 @@ rel="stylesheet">
 <div class="portfolio-item-cover">
 <picture>
         <source
-        srcset="./images/portfolio-3.jpg 1x",
-        "./images/portfolio-3-desk2x.jpg 2x"
+        srcset="./images/portfolio-3.jpg 1x, 
+        ./images/portfolio-3-desk2x.jpg 2x"
        media="(min-width: 1158px)"
         />
      <source
-     srcset="./images/portfolio-3-tabl1x.jpg 1x",
-      "./images/portfolio-3-tabl2x.jpg 2x"
+     srcset="./images/portfolio-3-tabl1x.jpg 1x, 
+     ./images/portfolio-3-tabl2x.jpg 2x"
      media="(min-width: 768px)"
      />
      <sourse
-     srcset="./images/portfolio-3-mob1x.jpg 1x",
-      "./images/portfolio-3-mob2x.jpg 2x"
+     srcset="./images/portfolio-3-mob1x.jpg 1x, 
+     ./images/portfolio-3-mob2x.jpg 2x"
      media="(max-width: 767px)"
      />
      <img src="./images/portfolio-3.jpg" alt="Meditation App" width="360" />
@@ -369,18 +411,21 @@ rel="stylesheet">
       <div class="portfolio-item-cover">
 <picture>
         <source
-        srcset="./images/portfolio-4.jpg 1x",
-        "./images/portfolio-4-desk2x.jpg 2x"
+        srcset="./images/portfolio-4.jpg 1x, 
+        ./images/portfolio-4-desk2x.jpg 2x"
+        
        media="(min-width: 1158px)"
         />
      <source
-     srcset="./images/portfolio-4-tabl1x.jpg 1x",
-      "./images/portfolio-4-tabl2x.jpg 2x"
+     srcset="./images/portfolio-4-tabl1x.jpg 1x, 
+     ./images/portfolio-4-tabl2x.jpg 2x"
+      
      media="(min-width: 768px)"
      />
      <sourse
-     srcset="./images/portfolio-4-mob1x.jpg 1x",
-      "./images/portfolio-4-mob2x.jpg 2x"
+     srcset="./images/portfolio-4-mob1x.jpg 1x, 
+     ./images/portfolio-4-mob2x.jpg 2x"
+      
      media="(max-width: 767px)"
      />
      <img src="./images/portfolio-4.jpg" alt="Taxi Service" width="360" />
@@ -400,18 +445,18 @@ rel="stylesheet">
       <div class="portfolio-item-cover">
         <picture>
         <source
-        srcset="./images/portfolio-5.jpg 1x",
-        "./images/portfolio-5-desk2x.jpg 2x"
+        srcset="./images/portfolio-5.jpg 1x, 
+        ./images/portfolio-5-desk2x.jpg 2x"
        media="(min-width: 1158px)"
         />
      <source
-     srcset="./images/portfolio-5-tabl1x.jpg 1x",
-      "./images/portfolio-5-tabl2x.jpg 2x"
+     srcset="./images/portfolio-5-tabl1x.jpg 1x, 
+     ./images/portfolio-5-tabl2x.jpg 2x"
      media="(min-width: 768px)"
      />
      <sourse
-     srcset="./images/portfolio-5-mob1x.jpg 1x",
-      "./images/portfolio-5-mob2x.jpg 2x"
+     srcset="./images/portfolio-5-mob1x.jpg 1x, 
+     ./images/portfolio-5-mob2x.jpg 2x"
      media="(max-width: 767px)"
      />
      <img src="./images/portfolio-5.jpg" alt="Screen Illustrations" width="360" />
@@ -431,18 +476,21 @@ rel="stylesheet">
       <div class="portfolio-item-cover">
           <picture>
         <source
-        srcset="./images/portfolio-6.jpg 1x",
-        "./images/portfolio-6-desk2x.jpg 2x"
+        srcset="./images/portfolio-6.jpg 1x,
+        ./images/portfolio-6-desk2x.jpg 2x"
+
        media="(min-width: 1158px)"
         />
      <source
-     srcset="./images/portfolio-6-tabl1x.jpg 1x",
-      "./images/portfolio-6-tabl2x.jpg 2x"
+     srcset="./images/portfolio-6-tabl1x.jpg 1x,
+      ./images/portfolio-6-tabl2x.jpg 2x"
+      
      media="(min-width: 768px)"
      />
      <sourse
-     srcset="./images/portfolio-6-mob1x.jpg 1x",
-      "./images/portfolio-6-mob2x.jpg 2x"
+     srcset="./images/portfolio-6-mob1x.jpg 1x, 
+     ./images/portfolio-6-mob2x.jpg 2x"
+      
      media="(max-width: 767px)"
      />
       <img src="./images/portfolio-6.jpg" alt="Online Courses" width="360" />
@@ -460,7 +508,7 @@ rel="stylesheet">
         </div>
   
 </section>
-<section class="hidden">
+<section class="visually-hidden">
   <button class="hero-btn" type="button" data-modal-open>
     Order Servise
   </button>
@@ -595,7 +643,7 @@ placeholder="Text input">
     <a href="#" class="modal-check-link">Privacy Policy</a>
   </label>
   </div>
-    <button type="submit" class="order-button">Send</button>
+    <button type="submit" class="order-button-modal">Send</button>
 </form>
 </div>
 </div>
