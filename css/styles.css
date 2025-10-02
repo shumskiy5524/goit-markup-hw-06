@@ -633,6 +633,7 @@ color: #434455;
   
 }
 .team-item-social{
+ 
  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-name{ 
@@ -700,6 +701,7 @@ margin-bottom: 8px;
   background: #fff;
    border-radius: 0 0 4px 4px;
     width: calc((100% - 24px) / 2);
+
 }
 .team-social-link{
   width: 100%;
@@ -723,7 +725,6 @@ display: block;
 }
 .team-card{
   padding: 32px 0 ;
-  width: 100%;
 
 }
 
@@ -731,7 +732,7 @@ display: block;
   display: flex;
   justify-content: center;
   gap: 24px;
-  
+
 }
 .team-item-social{
  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -760,6 +761,12 @@ color: #434455;
   height: 40px;
 
 } 
+.team-item img {
+  display: block;       
+  width: 100%;          
+  height: auto;         
+    
+}
 }
 
 
@@ -1037,6 +1044,7 @@ display: flex;
   position: relative;
 overflow: hidden;
 }
+
 .portfolio-design-text{
   display: block;
   position: absolute;
@@ -1066,17 +1074,16 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
+  
 }
 
 .footer-logo-name{
   flex-direction: column;
   gap: 72px;
- margin-right: 96px;
+ margin: 0;
  padding-bottom: 32px;
 }
  .footer-logo{
-
- justify-content: center;
   display: inline-block;
   margin-bottom: 16px;
 font-weight: 700;
@@ -1092,7 +1099,7 @@ color: #f4f4fd;
 }
 
 .footer-text{
-width: 288px;
+max-width: 288px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -1117,10 +1124,13 @@ fill: #f4f4fd;
   }
   .footer-icon-wrapper{
       gap: 16px;
+     
   }
   .footer-list{
     display: flex;
+    justify-content: center;
     gap: 16px; 
+    margin-bottom: 62px;
   }
   .footer-item{
     width: 40px;
@@ -1186,24 +1196,25 @@ background-color: #31d0aa;
   .order-button-footer:focus{
     background-color: #31d0aa;
   }
-   .order-button-footer{
-     width: 165px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-     line-height: 1.5;
-     letter-spacing: 0.04em;
-      color: #ffffff;
-      cursor: pointer;
-      background-color: #4D5AE5;
-       border: none; 
-       border-radius: 4px;
-       margin-bottom: 96px;
-  }
+  .order-button-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 165px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none; 
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 }
 
@@ -1214,6 +1225,7 @@ background-color: #31d0aa;
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 96px 0;
+  
 }
 
 .footer-logo-name{
@@ -1238,14 +1250,17 @@ width: 264px;
   line-height: 1.5;
   color:#F4F4FD;
   letter-spacing: 0.02em;
+
 }
   .footer-icon{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     width: 24px;
 height: 24px;
 fill: #f4f4fd;
+
   }
   .footer-media{
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -1254,6 +1269,7 @@ fill: #f4f4fd;
     color: #FFFFFF;
   }
   .footer-icon-wrapper{
+    
       gap: 16px;
   }
   .footer-list{
@@ -1281,7 +1297,7 @@ background-color: #31d0aa;
   }
   .footer-link{
     
-    margin-left: auto;
+    margin-right: auto;
   }
   .footer-link-text{
     margin-bottom: 16px;
@@ -1291,6 +1307,7 @@ background-color: #31d0aa;
       letter-spacing: 0.02em;
       color: #ffffff;
       gap: 16px;
+     
   }
   .form-label-footer{
     display: flex; 
@@ -1309,6 +1326,8 @@ background-color: #31d0aa;
       border-radius: 4px;
       color: #ffffff; 
       margin-bottom: 16px;
+      margin-left: 108px;
+      gap: 24px;
   }
   .placeholder{
     color: #ffffff; 
