@@ -1,15 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-.nav-list{
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-.contacts-list{
-  display: flex;
-  align-items: center;
-}
+
 .nav-link:hover::after,
 .nav-link:focus::after,
 .nav-link.current::after {
