@@ -1688,8 +1688,8 @@ pointer-events: auto;
   position: absolute;
   top: 50%;
 left: 50%;
-width: 408px;
-min-height: 584px;
+width: 288px;
+min-height: 623px;
 border-radius: 4px;
 transform: translate(-50%, -50%);
 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -1784,7 +1784,7 @@ color: rgba(46, 47, 66, 0.4);
 }
 .box-modal{
 border-radius: 4px;
-width: 360px;
+width: 256px;
 height: 336px;
 }
 .order-button:hover
@@ -1868,6 +1868,7 @@ fill: #F4F4FD;
 }
 .order-button-modal{
   display: block; 
+  margin: 0 auto;
   min-width: 169px ;
   height: 56px;
 font-family: "Roboto", sans-serif;
@@ -2089,6 +2090,7 @@ fill: #F4F4FD;
 }
 .order-button-modal{
   display: block; 
+  margin: 0 auto;
   min-width: 169px ;
   height: 56px;
 font-family: "Roboto", sans-serif;
@@ -2314,7 +2316,8 @@ fill: #F4F4FD;
   color: #4d5ae5;
 }
 .order-button-modal{
-  display: block; 
+  display: block;  
+  margin: 0 auto;
   min-width: 169px ;
   height: 56px;
 font-family: "Roboto", sans-serif;
